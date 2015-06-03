@@ -13,14 +13,14 @@
  }
  /*End of reset*/
  html,body,div,ul,section,span {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  box-sizing: border-box;
-}
+ 	margin: 0;
+ 	padding: 0;
+ 	border: 0;
+ 	font-size: 100%;
+ 	font: inherit;
+ 	vertical-align: baseline;
+ 	box-sizing: border-box;
+ }
  /*div {
  	border: 1px solid Chocolate;
  	}*/
@@ -47,12 +47,12 @@
  		letter-spacing: 0.03em;
  		margin-top: 0.7rem;
  	}
-   .mainheader .heading-text {
- 	font-size: 1.5rem;
- 	margin-top: 0.7rem;
- 	font-family: 'Roboto', sans-serif;
- 	letter-spacing: 0.03em;
- 	-webkit-font-smoothing: antialiased;
+ 	.mainheader .heading-text {
+ 		font-size: 1.5rem;
+ 		margin-top: 0.7rem;
+ 		font-family: 'Roboto', sans-serif;
+ 		letter-spacing: 0.03em;
+ 		-webkit-font-smoothing: antialiased;
  	}
  	.mainheader .logo {
  		margin-top: 1.5rem;
@@ -199,6 +199,14 @@ span {
 .strike {
 	text-decoration: line-through;
 }
-
+/* Responsive */
+@media only screen and (max-width: 500px) {
+	.masthead {
+		padding: 3em 0;
+	}
+	.masthead-heading {
+		font-size: 3em;
+	}
+}
 
 
